@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "lib": ["esnext"]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
