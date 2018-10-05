@@ -1,4 +1,4 @@
-export function maxi (w : number[]) {
+export function maxi (w : number[] | Float64Array) {
   // argmax of array w
   let maxv  = w[0];
   let maxix = 0;

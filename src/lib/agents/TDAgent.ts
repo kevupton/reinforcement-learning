@@ -66,6 +66,7 @@ export class TDAgent {
     this.env = env; // store pointer to environment
     this.reset();
   }
+
   reset(){
     // reset the agent's policy and value function
     this.ns = this.env.getNumStates();

@@ -1,6 +1,6 @@
 // helper function returns array of zeros of length n
 // and uses typed arrays if available
-export function zeros (n : number) {
+export function zeros (n : number) : number[] | Float64Array {
   if (typeof(n) === 'undefined' || isNaN(n)) {
     return [];
   }

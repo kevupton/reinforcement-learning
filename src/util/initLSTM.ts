@@ -1,4 +1,4 @@
-import { Mat } from '../lib/Mat';
+import { Mat } from '../lib/classes/Mat';
 
 export function initLSTM (input_size, hidden_sizes, output_size) {
   // hidden size should be a list

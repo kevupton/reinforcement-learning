@@ -1,4 +1,4 @@
-import { Mat } from '../lib/Mat';
+import { Mat } from '../lib/classes/Mat';
 
 export function softmax (m : Mat) {
   const out  = new Mat(m.n, m.d); // probability volume
