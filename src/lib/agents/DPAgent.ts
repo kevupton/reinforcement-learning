@@ -1,6 +1,6 @@
-import { getopt } from '../../util/getopt';
-import { sampleWeighted } from '../../util/sampleWeighted';
-import { zeros } from '../../util/zeros';
+import { getopt } from '../util/getopt';
+import { sampleWeighted } from '../util/sampleWeighted';
+import { zeros } from '../util/zeros';
 
 // ------
 // AGENTS

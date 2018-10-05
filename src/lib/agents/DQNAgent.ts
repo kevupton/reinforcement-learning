@@ -1,10 +1,10 @@
-import { getopt } from '../../util/getopt';
-import { netFromJSON, netToJSON, RandMat, updateNet } from '../../util/matrix';
+import { getopt } from '../util/getopt';
+import { netFromJSON, netToJSON, RandMat, updateNet } from '../util/matrix';
 import { Mat } from '../classes/Mat';
 import { AgentEnvironment, AgentOptions, Net } from '../interfaces';
 import { Graph } from '../classes/Graph';
-import { randi } from '../../util/random';
-import { maxi } from '../../util/maxi';
+import { randi } from '../util/random';
+import { maxi } from '../util/maxi';
 
 export class DQNAgent {
   gamma : number;
@@ -139,7 +139,7 @@ export class DQNAgent {
 
   learn (r1 : number) {
     // perform an update on Q function
-    if (!(this.r0 == null) && this.alpha > 0) {
+    if (this.r0 !== null && this.alpha > 0) {
 
       // learn from this tuple to get a sense of how "surprising" it is to the agent
       this.tderror = this.learnFromTuple(this.s0, this.a0, this.r0, this.s1, this.a1); // a measure of surprise

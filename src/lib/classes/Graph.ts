@@ -1,5 +1,5 @@
-import { assert } from '../../util/assert';
-import { sig } from '../../util/sig';
+import { assert } from '../util/assert';
+import { sig } from '../util/sig';
 import { Mat } from './Mat';
 
 export class Graph {

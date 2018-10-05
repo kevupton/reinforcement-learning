@@ -1,11 +1,11 @@
 // QAgent uses TD (Q-Learning, SARSA)
 // - does not require environment model :)
 // - learns from experience :)
-import { getopt } from '../../util/getopt';
-import { randi } from '../../util/random';
-import { sampleWeighted } from '../../util/sampleWeighted';
-import { setConst } from '../../util/setconst';
-import { zeros } from '../../util/zeros';
+import { getopt } from '../util/getopt';
+import { randi } from '../util/random';
+import { sampleWeighted } from '../util/sampleWeighted';
+import { setConst } from '../util/setconst';
+import { zeros } from '../util/zeros';
 
 export class TDAgent {
   ns : number;

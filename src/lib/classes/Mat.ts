@@ -1,6 +1,6 @@
-import { assert } from '../../util/assert';
+import { assert } from '../util/assert';
 // Mat holds a matrix
-import { zeros } from '../../util/zeros';
+import { zeros } from '../util/zeros';
 
 export interface MatrixData {
   n : number;
